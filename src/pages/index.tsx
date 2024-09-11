@@ -2,14 +2,7 @@ import Container from "@/components/Container";
 import { useEffect, useRef, Suspense, useState } from "react";
 import styles from "@/styles/Home.module.css";
 import { Button } from "@/components/ui/button";
-import {
-  ChevronRight,
-  Code2,
-  Frame,
-  SearchCheck,
-  Eye,
-  MonitorSmartphone,
-} from "lucide-react";
+import { ChevronRight, Code2, Frame, SearchCheck, Eye,MonitorSmartphone,} from "lucide-react";
 import { TriangleDownIcon } from "@radix-ui/react-icons";
 import Spline from "@splinetool/react-spline";
 import Link from "next/link";
@@ -28,9 +21,9 @@ import VanillaTilt from "vanilla-tilt";
 import { motion } from "framer-motion";
 
 const aboutStats = [
-  { label: "Years of experience", value: "3+" },
+  { label: "Years of experience", value: "2+" },
   { label: "Technologies mastered", value: "5+" },
-  { label: "Companies worked with", value: "15+" },
+  { label: "Companies worked with", value: "2+" },
 ];
 
 const projects = [
@@ -38,7 +31,7 @@ const projects = [
     title: "Unqueue",
     description: "E-commerce platform for selling digital products",
     image: "/assets/unqueue.webm",
-    href: "https://unqueue.shop/",
+    href: "https://github.com/Saloniatil",
   },
   {
     title: "InfiniteVPS",
@@ -56,7 +49,7 @@ const projects = [
     title: "Wrona",
     description: "Robotics-focused technology company",
     image: "/assets/wrona.jpeg",
-    href: "https://www.wrona.com/",
+    href: "https://github.com/Saloniatil",
   },
   {
     title: "This website",
@@ -190,9 +183,10 @@ export default function Home() {
               data-scroll-speed=".09"
               className="flex flex-row items-center space-x-1.5"
             >
-              <span className={styles.pill}>next.js</span>
+              <span className={styles.pill}>Next.js & typescript</span>
               <span className={styles.pill}>tailwindcss</span>
-              <span className={styles.pill}>typescript</span>
+              <span className={styles.pill}>Graphic Designer</span>
+              
             </div>
             <div>
               <h1
@@ -206,7 +200,7 @@ export default function Home() {
                   <br />
                 </span>
                 <span className="clash-grotesk text-gradient text-6xl 2xl:text-8xl">
-                  WendoJ.
+                   Saloni_dev&<hr/>Designer.
                 </span>
               </h1>
               <p

@@ -68,7 +68,7 @@ export default function Preloader() {
 
   return (
     <motion.div
-      variants={slideUp}
+      variants ={slideUp}
       initial="initial"
       exit="exit"
       className={styles.introduction}
